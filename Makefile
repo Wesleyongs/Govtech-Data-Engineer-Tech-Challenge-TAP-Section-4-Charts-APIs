@@ -15,6 +15,7 @@ clean: ## Remove general artifact files
 
 venv: ## Create virtual environment if venv directory not present
 	`which python3.8` -m venv venv
+	venv/Scripts/activate
 
 run: ## Run with dev dependencies
 	venv/Scripts/activate
