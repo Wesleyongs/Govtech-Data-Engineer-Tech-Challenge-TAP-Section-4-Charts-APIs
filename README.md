@@ -3,13 +3,17 @@
 
 ## start up (with Make on windows)
 
-```bash
+```
 make run
 ```
 
 ## start up
 
-```bash
+```
+pip install -r requirements.txt
+```
+
+```
 streamlit run app.py
 ```
 
